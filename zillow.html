@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zillow</title>
+    <style>
+      p {
+        margin: 0;
+      }
+      body {
+        font-family: Arial;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .left-section {
+        margin-left: 190px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex:1;
+        flex-shrink: 0;
+      }
+      .left-section-para,
+       .right-section-para{
+        font-size: 12px;
+        color: rgb(96, 96, 96);
+        margin-left: 12px;
+        margin-right: 12px;
+      }
+    
+      .middle-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+      }
+      .right-section {
+        margin-left: 190px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex:1;
+        flex-shrink: 0;
+      }
+      .banner-img {
+        width: 100%;
+        height: 320px;
+      }
+      .banner-para {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: fixed;
+        top: 140px;
+        left: 590px;
+        color: white;
+      }
+      .search-bar {
+        position: fixed;
+        top: 200px;
+        left: 490px;
+        width: 475px;
+        font-size: 11px;
+        color: rgb(96, 96, 96);
+        border: none;
+        padding: 12px 0px 12px 0px;
+        border-radius: 3px;
+      }
+
+      .bottom {
+        margin-top: 20px;
+        margin-left: 110px;
+        margin-right: 200px;
+      }
+      .title-bottom {
+      }
+      .para-bottom-title-1 {
+        font-size: 14px;
+      }
+      .para-bottom-title-2 {
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: rgb(96, 96, 96)
+      }
+      .head-bottt {
+        width: 300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+      }
+      .advert {
+        width: 300px;
+      }
+      .home-img {
+        height: 170px;
+        width: 100%;
+      }
+      .para-bottt-div {
+        margin-top: 8px;
+        line-height: 18px;
+        margin-left: 8px;
+      }
+      .para-bottt {
+        font-size: 14px;
+      }
+      .asa {
+        padding-bottom: 8px;
+        box-shadow: 0 0 4px rgb(96, 96, 96);
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+
+      <div class="header">
+        <div class="left-section">
+          <p class="left-section-para">Buy</p>
+          <p class="left-section-para">Rent</p>
+          <p class="left-section-para">Sell</p>
+          <p class="left-section-para">Home Loans</p>
+          <p class="left-section-para">Agent finder</p>
+        </div>
+        <div class="middle-section">
+          <img src="thumbnail/z-logo-default.svg">
+        </div>
+        <div class="right-section">
+          <p class="right-section-para">Manage Rentals</p>
+          <p class="right-section-para">Advertise</p>
+          <p class="right-section-para">Help</p>
+          <p class="right-section-para">Sign in</p>
+        </div>
+      </div>
+
+      <div>
+        <img class="banner-img" src="thumbnail/Banner image.webp">
+        <p class="banner-para">
+          Agents. Tours. Loans. Homes.
+        </p>
+        <input class="search-bar" type="text" placeholder="
+          Enter an address, neighborhood, city, or ZIP code
+        ">
+      </div>
+
+      <div class="bottom">
+        <div class="title-bottom">
+          <p class="para-bottom-title-1"><strong>Homes For You</strong></p>
+          <p class="para-bottom-title-2">Based on homes you recently viewed</p>
+        </div>
+
+        <!--start-->
+        <div class="head-bottt">
+
+          <div class="asa">
+            <div class="advert">
+              <img class="home-img" src="thumbnail/card4.webp">
+            </div>
+            <div class="para-bottt-div">
+              <p class="para-bottt"><strong>$689,950</strong></p>
+              <p class="para-bottt">2 bds 2 ba 1,088 sqft Active</p>
+              <p class="para-bottt">9210 B Roosevelt Way</p>
+            </div>
+          </div>
+
+          <div class="asa">
+            <div class="advert">
+              <img class="home-img" src="thumbnail/card1.webp">
+            </div>
+            <div class="para-bottt-div">
+              <p class="para-bottt"><strong>$689,950</strong></p>
+              <p class="para-bottt">2 bds 2 ba 1,088 sqft Active</p>
+              <p class="para-bottt">9210 B Roosevelt Way</p>
+            </div>
+          </div>
+
+          <div class="asa">
+            <div class="advert">
+              <img class="home-img" src="thumbnail/card2.webp">
+            </div>
+            <div class="para-bottt-div">
+              <p class="para-bottt"><strong>$689,950</strong></p>
+              <p class="para-bottt">2 bds 2 ba 1,088 sqft Active</p>
+              <p class="para-bottt">9210 B Roosevelt Way</p>
+            </div>
+          </div>
+
+          <div class="asa">
+            <div class="advert">
+              <img class="home-img" src="thumbnail/card3.webp">
+            </div>
+            <div class="para-bottt-div">
+              <p class="para-bottt"><strong>$689,950</strong></p>
+              <p class="para-bottt">2 bds 2 ba 1,088 sqft Active</p>
+              <p class="para-bottt">9210 B Roosevelt Way</p>
+            </div>
+          </div>
+        </div> <!--end-->
+
+      </div>
+
+    </div>
+  </body>
+</html>
